@@ -22,7 +22,6 @@ class Home extends CI_Controller {
 	{
 		$this->load->model('blog_model');
 		$this->blog_model->test($id);
-
 		$this->load->view('layout/head');
 		$this->load->view('home');
 		$this->load->view('layout/foot');
